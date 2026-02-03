@@ -2,13 +2,9 @@
   "name": "analytics-dashboard",
   "version": "0.1.0",
   "private": true,
-  "workspaces": [
-    "client",
-    "server"
-  ],
   "scripts": {
-    "install:all": "npm --prefix server install && npm --prefix client install",
-    "start:client": "npm --prefix client start",
-    "dev:server": "npm --prefix server run dev"
+    "install:all": "pnpm --recursive install",
+    "start:client": "pnpm --filter client start",
+    "dev:server": "pnpm --filter server run dev"
   }
 }
