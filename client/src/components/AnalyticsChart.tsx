@@ -26,7 +26,7 @@ const AnalyticsChart: React.FC<{ data: DataPoint[] }> = ({ data }) => {
       <ResponsiveContainer>
         <LineChart data={formatted}>
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="label" angle={-30} textAnchor="end" height={70} interval={Math.max(0, Math.floor(formatted.length / 8))} />
+          <XAxis dataKey="label" angle={-45} textAnchor="end" height={80} interval={Math.max(0, Math.floor(formatted.length / 8))} />
           <YAxis />
           <Tooltip />
           <Line type="monotone" dataKey="value" stroke="#8884d8" dot={{ r: 3 }} />

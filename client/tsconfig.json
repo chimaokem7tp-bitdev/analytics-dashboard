@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
     "target": "ES2019",
-    "lib": ["DOM", "ESNext"],
+    "lib": ["ES2019", "DOM"],
     "jsx": "react-jsx",
     "module": "ESNext",
-    "moduleResolution": "Node",
+    "moduleResolution": "node",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "strict": false,
-    "noImplicitAny": false,
+    "strict": true,
+    "noImplicitAny": true,
     "resolveJsonModule": true,
     "isolatedModules": true
   },
