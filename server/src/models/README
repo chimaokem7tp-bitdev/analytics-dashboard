@@ -1,0 +1,1 @@
+Place your database models (e.g., using pg or an ORM) here. The repository is docker-compose-ready for PostgreSQL; wiring the server to the DB is left as a next step.

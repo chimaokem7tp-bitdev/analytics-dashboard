@@ -1,0 +1,1 @@
+Pages for the app. The Dashboard page fetches data from /api/data and renders the chart.
