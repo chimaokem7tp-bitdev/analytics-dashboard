@@ -2,3 +2,4 @@ shamefully-hoist=true
 strict-peer-dependencies=false
 ignore-workspace-root-check=true
 warn-dependency-bins-not-executable=false
+node-linker=hoisted
