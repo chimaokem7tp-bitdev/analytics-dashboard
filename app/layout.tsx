@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
-import '../client/src/index.tsx'
-import '../app/globals.css'
+import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Analytics Dashboard',
