@@ -1,13 +1,8 @@
-import type { NextPage } from 'next'
-
-const Home: NextPage = () => {
+export default function Home() {
   return (
-    <div style={{ padding: 24 }}>
+    <div style={{ padding: 24, fontFamily: 'sans-serif' }}>
       <h1>Analytics Dashboard</h1>
-      <p>Welcome to the Analytics Dashboard</p>
+      <p>Welcome to your analytics dashboard</p>
     </div>
   )
 }
-
-export default Home
-
