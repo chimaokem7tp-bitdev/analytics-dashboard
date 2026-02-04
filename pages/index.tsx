@@ -1,4 +1,6 @@
-export default function Home() {
+import type { NextPage } from 'next'
+
+const Home: NextPage = () => {
   return (
     <div style={{ padding: 24 }}>
       <h1>Analytics Dashboard</h1>
@@ -6,3 +8,6 @@ export default function Home() {
     </div>
   )
 }
+
+export default Home
+
